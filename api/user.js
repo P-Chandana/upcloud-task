@@ -16,7 +16,8 @@ const userSchema = new mongoose.Schema({
 
     conNumber:{
         type : Number,
-        unique:true,
+        
+//unique:true,
         // validate(value){
         //     var phoneno = /^\d{10}$/;
         //     if(value.match(phoneno)){
@@ -30,7 +31,7 @@ const userSchema = new mongoose.Schema({
     email: {
         type : String,
         required : true,
-        unique: true,
+        //unique: true,
         validate(value){
             if(!validator.isEmail(value)){
                 throw new Error("Invalid Email address");
