@@ -4,7 +4,7 @@
 * Clone this repository
 
 ```
-git clone https://github.com/herdanuyp/user-profile.git
+git clone https://github.com/P-Chandana/upcloud-task.git
 ```
 
 ```
